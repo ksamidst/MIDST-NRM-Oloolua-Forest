@@ -1,9 +1,8 @@
 _____________INTRODUCTION_____________<br/>
 
 This work on the Oloolua forest was done as part of the MIDST NRM project piloted by the Kenya Space Agency, using satellite imagery on the Google Earth Engine platform to 
-analyze raw satellite imagery into high level land cover classification products. This guide will enable new as well as intermediate and advanced users of the Google Earth Engine 
-platform to run the scripts in this repository and view the products.<br/>
-The scripts contain comments that highlight a step by step of the process followed in analysing and generating products for the aberdare forest.
+analyze raw satellite imagery into high level land cover classification products. This guide will enable new as well as intermediate and advanced users of the Google Earth Engine platform to run the scripts in this repository and view the products.<br/>
+The scripts contain comments that highlight a step by step of the process followed in analysing and generating products for the oloolua forest.
 
 ______________RUNNING THE SCRIPTS______________<br/>
 
@@ -29,7 +28,7 @@ _______________3.) INGESTING THE ASSETS/ SHAPE FILES ONTO THE GEE PLATFORM______
 ![image](https://user-images.githubusercontent.com/75077556/125578391-7ab741aa-633a-4f5b-92dd-ab10c8ea1425.png)<br/>
 Once you have been able to access the GEE code editor platform from step one above, on the left hand panel, click on the 'assets' tab as shown in the image above, then click 'NEW'. Under 'Table Upload' click on 'Shape files'.<br/>
 ![image](https://user-images.githubusercontent.com/75077556/125578723-c0d0d13e-62bc-485d-b3b6-36aa4805cc1e.png)<br/>
-As shown above, the 'Upload Shapefile' dialog box will appear as shown above. Click on the 'SELECT' button and navigate to the folder containing your shape files. Select all the files contained within the shapefiles folder, and put in a name of your choice, for the asset. Scroll down the dialog box and click 'UPLOAD'. Wait for the upload to complete and your asset will appear under the assets tab with the name you set for it. You will need to do this for the 'AOI_shapefile' and the 'Sample_data_shapefile' in the aberdare project folder. For more details on asset management on GEE, refer from the [GEE asset manager](https://developers.google.com/earth-engine/guides/asset_manager)
+As shown above, the 'Upload a new Shapefile asset' dialog box will appear as shown above. Click on the 'SELECT' button and navigate to the folder containing your shape files. Select all the files contained within the shapefiles folder, and put in a name of your choice, for the asset. Scroll down the dialog box and click 'UPLOAD'. Wait for the upload to complete and your asset will appear under the assets tab with the name you set for it. You will need to do this for the 'AOI_shapefile' and the 'Sample_data_shapefile' in the aberdare project folder. For more details on asset management on GEE, refer from the [GEE asset manager](https://developers.google.com/earth-engine/guides/asset_manager)
 
 _______________4.) PASTE THE SCRIPT CODE ONTO THE PLATFORM___________________________<br/>
 
